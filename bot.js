@@ -372,7 +372,7 @@ client.on('message', message => {
 
   if(!message.guild) return;
 
-    let id = message.author.id,prefix="!";
+    let id = message.author.id,prefix="#";
 
     if (spee[id] && (new Date).getTime() - spee[id] < 15*1000) {
 
