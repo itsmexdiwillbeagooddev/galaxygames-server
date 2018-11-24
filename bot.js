@@ -42,6 +42,26 @@ client.on('ready', () => {
   console.log('╚[════════════════════════════════════]╝')
 });
 
+//---------------- Casino Games 
+
+client.on('message', message => {
+if(message.content.startsWith("#slots")) {
+let slot1 = [':green_apple:', ':grapes:', ':cherries:', ':reminder_ribbon:', ':8ball:', ':slot_machine:', ':peach:', ':strawberry:'];
+let slot2 = [':green_apple:', ':grapes:', ':cherries:', ':reminder_ribbon:', ':8ball:', ':slot_machine:', ':peach:', ':strawberry:'];
+let slot3 = [':green_apple:', ':grapes:', ':cherries:', ':reminder_ribbon:', ':8ball:', ':slot_machine:', ':peach:', ':strawberry:'];
+let slots1 = `${slot1[Math.floor(Math.random() * slot1.length)]}`;
+let slots2 = `${slot1[Math.floor(Math.random() * slot1.length)]}`;
+let slots3 = `${slot1[Math.floor(Math.random() * slot1.length)]}`;
+let we;
+if(slots1 === slots2 && slots2 === slots3) {
+we = "**Congratulation You Won :sparkles:**."
+} else {
+we = "**Good Luck Next Time :broken_heart:**. "
+}
+message.channel.send(`${slots1} | ${slots2} | ${slots3} - ${we}`)
+}
+});
+
 
 
 
