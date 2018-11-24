@@ -54,11 +54,11 @@ let slots2 = `${slot1[Math.floor(Math.random() * slot1.length)]}`;
 let slots3 = `${slot1[Math.floor(Math.random() * slot1.length)]}`;
 let we;
 if(slots1 === slots2 && slots2 === slots3) {
-we = "**Congratulation You Won :sparkles:**."
+we = "**Congratulation You Won :tada::sparkles:**."
 } else {
 we = "**Good Luck Next Time :broken_heart:**. "
 }
-message.channel.send(`${slots1} | ${slots2} | ${slots3}`)
+message.channel.send(`${slots1} |~| ${slots2} |~| ${slots3}`)
 message.channel.send(`${we}`)
 }
 });
