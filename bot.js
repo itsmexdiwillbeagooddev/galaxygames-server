@@ -440,9 +440,9 @@ msg.channel.send(embed).then(() => {
 
   .setColor("04791c")
 
-.setDescription('**Good Job :tada:**')
+.setDescription('Good Job :tada:')
 
-.addField('Type G.mypoints', 'To Show ur Points' , true)
+.addField('**Congratulation!!**' , true)
 
 .setFooter(message.author.username, message.author.avatarURL)
 
