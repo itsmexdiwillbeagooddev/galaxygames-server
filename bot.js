@@ -418,7 +418,7 @@ message.channel.send('**Game is Start now...!**').then(msg => {
 
  .setColor("0054dd")
 
-     .setAuthor(`**You have 15 seconds to type the word**`)
+     .setAuthor(`You have 15 seconds to type the word`)
 
           .setImage(`${item.type}`)
 
