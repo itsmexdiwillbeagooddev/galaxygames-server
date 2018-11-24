@@ -442,7 +442,7 @@ msg.channel.send(embed).then(() => {
 
 .setDescription('Good Job :tada:')
 
-.addField('**Congratulation!!**' , true)
+.addField('**Congratulation!!**')
 
 .setFooter(message.author.username, message.author.avatarURL)
 
