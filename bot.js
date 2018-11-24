@@ -36,7 +36,7 @@ client.on('ready', () => {
   console.log('')
   console.log(`servers! [ " ${client.guilds.size} " ]`);
   console.log('')
-  console.log('By ThePrince')
+  console.log('Galaxy Team')
   console.log('')  
   console.log(`Users! [ " ${client.users.size} " ]`);
   console.log('╚[════════════════════════════════════]╝')
@@ -58,7 +58,8 @@ we = "**Congratulation You Won :sparkles:**."
 } else {
 we = "**Good Luck Next Time :broken_heart:**. "
 }
-message.channel.send(`${slots1} | ${slots2} | ${slots3} - ${we}`)
+message.channel.send(`${slots1} | ${slots2} | ${slots3}`)
+message.channel.send(`${we}`)
 }
 });
 
