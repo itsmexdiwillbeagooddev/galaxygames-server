@@ -51,7 +51,7 @@ if(message.content.startsWith("#slots")) {
     .setDescription(`**Please Wait 60s!**`)
     .setColor(`RED`)
     .setFooter('Prince Bot' , client.user.avatarURL)
-    return msg.channel.send(misakaemb).then(message => {
+    return message.channel.send(embed).then(message => {
      message.delete(5000) 
     })
 let slot1 = [':green_apple:', ':grapes:', ':cherries:', ':reminder_ribbon:', ':8ball:', ':slot_machine:', ':peach:', ':strawberry:'];
@@ -67,11 +67,12 @@ we = "**Congratulation You Won :tada::sparkles:**."
 we = "**Good Luck Next Time :broken_heart:**. "
 }
 message.channel.send(`${slots1} |~| ${slots2} |~| ${slots3}`)
-message.channel.send(`${we}`)
-});
-  }
-   setTimeout(() => {
-    },60000);
+message.channel.send(`${we}`);
+        });
+}
+  
+    setTimeout(() => {
+    },30000);
     })
 
 
