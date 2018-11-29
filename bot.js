@@ -43,10 +43,12 @@ client.on('ready', () => {
 });
 
 //---------------- Casino Games 
+       if (!message.member.hasPermission('MANAGE_ROLES')) return message.reply
+
 
 client.on('message', message => {
 if(message.content.startsWith("#slots")) {
-  if (message.Timeout(message.author.id)) {
+  if (!message.member.hasPermission('MANAGE_MESSAGES')) {
     let embed = new Discord.RichEmbed()
     .setThumbnail(message.author.avatarURL)
     .setDescription(`**Please Wait 60s!**`)
