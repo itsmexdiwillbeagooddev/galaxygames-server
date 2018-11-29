@@ -77,79 +77,79 @@ message.channel.send(`${we}`)
 const speed = [
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429298994078810127/a90c6b270eb8bb2e.png",
-        "answers": ["البرازيل"]
+        "answers": ["i love this server"]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429298996385677312/93b0c6f963ca78cc.png",
-        "answers": ["السعودية"]
+        "answers": ["galaxy games"]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429298996130086934/341960d3e3e1daad.png",
-        "answers": ["القسطنطينية"]
+        "answers": ["kiki do you love me"]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429298998172450816/5c70f0d2a02f741a.png",
-        "answers": ["النهاية"]
+        "answers": ["let me alone..."]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429298999799971860/00c3e44857da1d4f.png",
-        "answers": ["امازون"]
+        "answers": ["hahaha #im the best"]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429299000026595338/56ca5f3803361aaf.png",
-        "answers": ["جافاسكربت"]
+        "answers": ["do you love me?"]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429299000676581382/426f82fc46406cf9.png",
-        "answers": ["سهله مو صعبه"]
+        "answers": ["galaxy games find me a gf!"]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429299005474996255/7ec6030fe3423458.png",
-        "answers": ["طبق رطب مرق بقر"]
+        "answers": ["i need your love"]
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429298913980317696/429299005458087936/fd790725b7496d35.png",
-        "answers": ["متجر"]
+        "answers": ["legends never die"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330177894645780/7a11f3f73c1df90d.png",
-        "answers": ["شجرة الأوغيري"]
+        "answers": ["help me!"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330188162301952/a5d4f8c72362aa3f.png",
-        "answers": ["عش العصفور"]
+        "answers": ["i dont like this server"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330194587713554/c5b6b7bad08671a9.png",
-        "answers": ["قم بكتابة"]
+        "answers": ["who is the best?"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330199838982152/1e05423a0b91fdaa.png",
-        "answers": ["كانيكي"]
+        "answers": ["galaxy"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330207711690762/39a6a460c6211b5d.png",
-        "answers": ["ليوبليانا"]
+        "answers": ["samsung galaxy games"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330217971089418/e5e323d8e8ce00ad.png",
-        "answers": ["هواوي"]
+        "answers": ["sadness"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330224316940329/7872c68940fd6f08.png",
-        "answers": ["ياخرا"]
+        "answers": ["i want you to be happier"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330229140652032/2419fe025b8b35f2.png",
-        "answers": ["يوم الخميس"]
+        "answers": ["fortnite"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330238330241044/DO_YOU_KNOW_THE_WAY.png",
-        "answers": ["DO YOU KNOW THE WAY"]
+        "answers": ["minecraft"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330246840483842/23dc3a67e7bedc9e.png",
-        "answers": ["الأرض"]
+        "answers": ["sky"]
           },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/429330256256827414/9f90c0fcbfc60a0d.png",
@@ -358,12 +358,12 @@ const speed = [
     },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040778467835924/9dff572a5bf1b602.png",
-        "answers": ["اكس بوكس يلد"]
+        "answers": ["hahaha who is better now?"]
  
         },
     {
             "type": "https://cdn.discordapp.com/attachments/429330153735454722/430040783228370964/91ebb70e0dd936be.png",
-        "answers": ["بكسل يالوصخخ"]
+        "answers": ["black cat"]
 
     }
 ];
