@@ -68,9 +68,8 @@ we = "**Good Luck Next Time :broken_heart:**. "
 }
 message.channel.send(`${slots1} |~| ${slots2} |~| ${slots3}`)
 message.channel.send(`${we}`);
-        });
+        })
 }
-  
     setTimeout(() => {
     },30000);
     })
