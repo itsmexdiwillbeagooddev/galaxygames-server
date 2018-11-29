@@ -46,8 +46,9 @@ client.on('ready', () => {
 
 client.on('message', message => {
 if(message.content.startsWith("#slots")) {
-  if (message.has(message.author.id)) {
+  if (message.Timeout(message.author.id)) {
     let embed = new Discord.RichEmbed()
+    .setThumbnail(message.author.avatarURL)
     .setDescription(`**Please Wait 60s!**`)
     .setColor(`RED`)
     .setFooter('Prince Bot' , client.user.avatarURL)
