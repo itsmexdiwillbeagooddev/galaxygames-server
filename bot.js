@@ -48,15 +48,6 @@ client.on('ready', () => {
 
 client.on('message', message => {
 if(message.content.startsWith("#slots")) {
-  if (!message.member.hasPermission('MANAGE_MESSAGES')) {
-    let embed = new Discord.RichEmbed()
-    .setThumbnail(message.author.avatarURL)
-    .setDescription(`**Please Wait 60s!**`)
-    .setColor(`RED`)
-    .setFooter('Prince Bot' , client.user.avatarURL)
-    return message.channel.send(embed).then(message => {
-     message.delete(5000) 
-    })
 let slot1 = [':green_apple:', ':grapes:', ':cherries:', ':reminder_ribbon:', ':8ball:', ':slot_machine:', ':peach:', ':strawberry:'];
 let slot2 = [':green_apple:', ':grapes:', ':cherries:', ':reminder_ribbon:', ':8ball:', ':slot_machine:', ':peach:', ':strawberry:'];
 let slot3 = [':green_apple:', ':grapes:', ':cherries:', ':reminder_ribbon:', ':8ball:', ':slot_machine:', ':peach:', ':strawberry:'];
