@@ -46,6 +46,14 @@ client.on('ready', () => {
 
 client.on('message', message => {
 if(message.content.startsWith("#slots")) {
+  if (message.has(message.author.id)) {
+    let embed = new Discord.RichEmbed()
+    .setDescription(`**Please Wait 60s!**`)
+    .setColor(`RED`)
+    .setFooter('Prince Bot' , client.user.avatarURL)
+    return msg.channel.send(misakaemb).then(message => {
+     message.delete(5000) 
+    })
 let slot1 = [':green_apple:', ':grapes:', ':cherries:', ':reminder_ribbon:', ':8ball:', ':slot_machine:', ':peach:', ':strawberry:'];
 let slot2 = [':green_apple:', ':grapes:', ':cherries:', ':reminder_ribbon:', ':8ball:', ':slot_machine:', ':peach:', ':strawberry:'];
 let slot3 = [':green_apple:', ':grapes:', ':cherries:', ':reminder_ribbon:', ':8ball:', ':slot_machine:', ':peach:', ':strawberry:'];
@@ -60,9 +68,11 @@ we = "**Good Luck Next Time :broken_heart:**. "
 }
 message.channel.send(`${slots1} |~| ${slots2} |~| ${slots3}`)
 message.channel.send(`${we}`)
-}
+  }
 });
-
+   setTimeout(() => {
+    },60000);
+    })
 
 
 
