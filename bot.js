@@ -43,8 +43,6 @@ client.on('ready', () => {
 });
 
 //---------------- Casino Games 
-       if (!message.member.hasPermission('MANAGE_ROLES')) return message.reply
-
 
 client.on('message', message => {
 if(message.content.startsWith("#slots")) {
@@ -64,6 +62,7 @@ message.channel.send(`${slots1} |~| ${slots2} |~| ${slots3}`)
 message.channel.send(`${we}`)
 }
 });
+
 
 
 
